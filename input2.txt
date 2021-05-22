@@ -1,0 +1,27 @@
+move p4 d3
+move N1 a6
+move p7 g3
+move P4 d6
+move ki e2
+move P3 c6
+move p4 d4
+move B1 g4
+print
+showmoves B1
+move p7 g4
+move N1 c5
+showmoves KI
+move p5 e3
+move N1 d3
+showmoves ki
+move p4 d5
+move N1 e1
+showmoves r2
+move p4 d6
+move QU d6
+showmoves R2
+showmoves QU
+print
+showmoves n2
+initialize
+exit

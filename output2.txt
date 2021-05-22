@@ -1,0 +1,81 @@
+> move p4 d3
+OK
+> move N1 a6
+OK
+> move p7 g3
+OK
+> move P4 d6
+OK
+> move ki e2
+FAILED
+> move P3 c6
+OK
+> move p4 d4
+OK
+> move B1 g4
+OK
+> print
+-------------------------
+R1       QU KI B2 N2 R2
+P1 P2       P5 P6 P7 P8
+N1    P3 P4     
+
+         p4       B1
+                  p7
+p1 p2 p3    p5 p6    p8
+r1 n1 b1 qu ki b2 n2 r2
+-------------------------
+> showmoves B1
+e2 f3 h3
+> move p7 g4
+OK
+> move N1 c5
+OK
+> showmoves KI
+d7
+> move p5 e3
+OK
+> move N1 d3
+OK
+> showmoves ki
+d2 e2
+> move p4 d5
+OK
+> move N1 e1
+FAILED
+> showmoves r2
+FAILED
+> move p4 d6
+OK
+> move QU d6
+OK
+> showmoves R2
+FAILED
+> showmoves QU
+a3 b4 b8 c5 c7 d4 d5 d7 d8 e5 e6 f4 f6 g3 g6 h2 h6
+> print
+-------------------------
+R1          KI B2 N2 R2
+P1 P2       P5 P6 P7 P8
+      P3 QU 
+
+                  p7
+         N1 p5                 
+p1 p2 p3       p6    p8
+r1 n1 b1 qu ki b2 n2 r2
+-------------------------
+> showmoves n2
+e2 f3 h3
+> initialize
+OK
+-----------------------
+R1 N1 B1 QU KI B2 N2 R2
+P1 P2 P3 P4 P5 P6 P7 P8
+          
+
+
+             
+p1 p2 p3 p4 p5 p6 p7 p8
+r1 n1 b1 qu ki b2 n2 r2
+-----------------------
+> exit
